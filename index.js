@@ -3,8 +3,8 @@ const btnLike2 = document.getElementById("btnLike2")
 const countLike1 = document.getElementById("countLike1)
 const countLike2 = document.getElementById("countLike2)
 
-function hitLike1() {
-        let totalLike1 = parseInt(countLike1.value) + 1
-        countLike1.textContent = totalLike1.toString()
+function hitLikes1() {
+        let totalLikes1 = parseInt(countLikes1.value) + 1
+        countLikes1.textContent = totalLike1.toString()
 }
-btnLike1.addEventListener("click",hitlike1)
+btnLikes1.addEventListener("click",hitlikes1)
