@@ -4,11 +4,11 @@ const btnLike2 = document.getElementById("btnLike2")
 const countLikes1 = document.getElementById("countLikes1")
 const countLikes2 = document.getElementById("countLikes2")
 
-const btnDislike1 = document.getElementById("btnDislike1")
-const btnDislike2 = document.getElementById("btnDislike2")
+const btnDisLike1 = document.getElementById("btnDisLike1")
+const btnDisLike2 = document.getElementById("btnDisLike2")
 
-const countDislikes1 = document.getElementById("countDislikes1")
-const countDislikes2 = document.getElementById("countDislikes2")
+const countDisLikes1 = document.getElementById("countDisLikes1")
+const countDisLikes2 = document.getElementById("countDisLikes2")
 
 function hitLikes1() {
    let totalLikes1 = parseInt(countLikes1.value) + 1
@@ -22,14 +22,14 @@ function hitLikes2() {
 } 
 btnLike2.addEventListener("click",hitLikes2)
 
-function Dislikes1() {
-  let totalDislikes1 = parseInt(countDislikes1.value) + 1
-   countDislikes1.textContent = totalDislikes1.toString()
+function DisLikes1() {
+  let totalDisLikes1 = parseInt(countDisLikes1.value) + 1
+   countDiikes1.textContent = totalDisLikes1.toString()
 }
-btnDislike1.addEventListener("click",Dislikes1)
+btnDisLike1.addEventListener("click",DisLikes1)
 
-function Dislikes2() {
-  let totalDislikes2 = parseInt(countDislikes2.value) + 1
-   countDislikes2.textContent = totalDislikes2.toString()
+function DisLikes2() {
+  let totalDisLikes2 = parseInt(countDisLikes2.value) + 1
+   countDisLikes2.textContent = totalDisLikes2.toString()
 }
-btnDislike2.addEventListener("click",Dislikes2)
+btnDisLike2.addEventListener("click",DisLikes2)
